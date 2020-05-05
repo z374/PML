@@ -1,4 +1,11 @@
 import numpy as np
+'''
+L'intera classe può essere sostituita con il seguente codice, che per giunta permette di avere più di due classi 
+
+    from sklearn.linear_model import LogisticRegression
+    lr = LogisticRegression(C=1000, random_state=1, solver='lbfgs', multi_class='ovr')
+
+'''
 
 
 class LogisticRegressionGD(object):
